@@ -1,8 +1,6 @@
 # Zigit
-
+- zigit is a superfast GitHub repository downloader written in C, using aria2c
 ---
-- Uses `aria2c` for fast, multi-connection downloads.
-
 ## Requirements
 
 Make sure you have the following installed:
@@ -32,16 +30,12 @@ Clone a GitHub repository by running:
 zigit clone https://github.com/user/repo
 ```
 ---
-## License
-This project is released under the MIT License.
-Feel free to modify and distribute it.
+![Stars](https://img.shields.io/github/stars/STRTSNM/zigit?style=flat-square)
+![License](https://img.shields.io/github/license/STRTSNM/zigit?style=flat-square)
+
 
 ## Future Improvements
-
-- Add true clone support in git sense 
-
-- Add progress bar for extraction
-
-- Support for private repositories (via token)
-
-- Option to specify custom branch
+- [X] Add an option to specify custom branch
+- [ ] Add true clone support in git sense 
+- [ ] Add progress bar for extraction
+- [ ] Support for private repositories (via token)

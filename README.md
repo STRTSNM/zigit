@@ -21,14 +21,15 @@ To install them on an Arch system (i use arch btw ¯\(ツ)/¯ ) :
 sudo pacman -Syy aria2 unzip gcc
 ```
 
-Compile using:
+## Installing zigit
 ```bash
-gcc zigit.c -o zigit
+make
+make install
 ```
 Usage
 Clone a GitHub repository by running:
 ```bash
-./zigit clone https://github.com/user/repo
+zigit clone https://github.com/user/repo
 ```
 ---
 ## License

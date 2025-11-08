@@ -1,5 +1,13 @@
 # Zigit
-- zigit is a superfast GitHub repository downloader written in C, using aria2c
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8a8942a3-8310-48fe-ae47-740076e29696" alt="zigit-logo">
+
+
+*Zigit* is a superfast GitHub repository downloader written in C, using aria2c
+</div>
+
+
 ---
 ## Requirements
 

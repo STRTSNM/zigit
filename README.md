@@ -24,11 +24,16 @@ sudo pacman -Syy aria2 unzip gcc
 make
 make install
 ```
-Usage
+
+## Usage
+
 Clone a GitHub repository by running:
 ```bash
 zigit clone https://github.com/user/repo
 ```
+or 
+## Flags
+- Use the `-b` or `--branch` flag followed by the name of the branch to specify a branch. 
 ---
 ![Stars](https://img.shields.io/github/stars/STRTSNM/zigit?style=flat-square)
 ![License](https://img.shields.io/github/license/STRTSNM/zigit?style=flat-square)
